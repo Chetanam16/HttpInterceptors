@@ -1,0 +1,59 @@
+<div *ngIf="selectedProduct">
+  <h2>Product: {{ selectedProduct.name }}</h2>
+  <p>{{ selectedProduct.description }}</p>
+  <img [src]="selectedProduct.image" alt="{{ selectedProduct.name }}" />
+  <p>Price: ${{ selectedProduct.price }}</p>
+</div>
+
+<div class="shipping-form-container">
+    <form [formGroup]="shippingForm" (ngSubmit)="onSubmit()">
+      <mat-card>
+        <mat-card-title>Shipping Details</mat-card-title>
+        <mat-card-content>
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name" placeholder="Enter your full name" />
+            <mat-error *ngIf="shippingForm.get('name')?.hasError('required')">
+              Name is required.
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" placeholder="Enter your email" />
+            <mat-error *ngIf="shippingForm.get('email')?.hasError('required')">
+              Email is required.
+            </mat-error>
+            <mat-error *ngIf="shippingForm.get('email')?.hasError('email')">
+              Enter a valid email.
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Phone Number</mat-label>
+            <input matInput formControlName="phone" placeholder="Enter your phone number" maxlength="10"/>
+            <mat-error *ngIf="shippingForm.get('phone')?.hasError('required')">
+              Phone number is required.
+            </mat-error>
+            <mat-error *ngIf="shippingForm.get('phone')?.hasError('pattern')">
+              Enter a valid 10-digit phone number.
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Address</mat-label>
+            <textarea matInput formControlName="address" placeholder="Enter your address"></textarea>
+            <mat-error *ngIf="shippingForm.get('address')?.hasError('required')">
+              Address is required.
+            </mat-error>
+          </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" type="submit" [disabled]="shippingForm.invalid">
+            Submit
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </div>
+  

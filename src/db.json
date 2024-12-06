@@ -1,0 +1,249 @@
+{
+    "products":[
+        {
+          "id": 1,
+          "name": "Wireless Headphones",
+          "description": "Noise-canceling over-ear headphones with 30-hour battery life.",
+          "price": 99.99,
+          "image": "https://via.placeholder.com/150/0000FF/FFFFFF?text=Headphones",
+          "category": "Electronics",
+          "stock": 50
+        },
+        {
+          "id": 2,
+          "name": "Smartphone",
+          "description": "Latest Android smartphone with a 108MP camera and 5G connectivity.",
+          "price": 699.99,
+          "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=Smartphone",
+          "category": "Electronics",
+          "stock": 20
+        },
+        {
+          "id": 3,
+          "name": "Coffee Maker",
+          "description": "Automatic coffee maker with a built-in grinder.",
+          "price": 49.99,
+          "image": "https://via.placeholder.com/150/008000/FFFFFF?text=Coffee+Maker",
+          "category": "Home Appliances",
+          "stock": 30
+        },
+        {
+          "id": 4,
+          "name": "Gaming Laptop",
+          "description": "High-performance gaming laptop with NVIDIA graphics and 16GB RAM.",
+          "price": 1299.99,
+          "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=Gaming+Laptop",
+          "category": "Computers",
+          "stock": 15
+        },
+        {
+          "id": 5,
+          "name": "Bluetooth Speaker",
+          "description": "Portable Bluetooth speaker with waterproof design and deep bass.",
+          "price": 29.99,
+          "image": "https://via.placeholder.com/150/4B0082/FFFFFF?text=Speaker",
+          "category": "Electronics",
+          "stock": 60
+        },
+        {
+          "id": 6,
+          "name": "Office Chair",
+          "description": "Ergonomic office chair with adjustable height and lumbar support.",
+          "price": 149.99,
+          "image": "https://via.placeholder.com/150/000000/FFFFFF?text=Chair",
+          "category": "Furniture",
+          "stock": 25
+        },
+        {
+          "id": 7,
+          "name": "Fitness Tracker",
+          "description": "Water-resistant fitness tracker with heart rate monitoring and step counting.",
+          "price": 49.99,
+          "image": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=Fitness+Tracker",
+          "category": "Wearables",
+          "stock": 40
+        },
+        {
+          "id": 8,
+          "name": "Electric Kettle",
+          "description": "1.7L electric kettle with fast boiling and auto shut-off.",
+          "price": 24.99,
+          "image": "https://via.placeholder.com/150/8B0000/FFFFFF?text=Kettle",
+          "category": "Home Appliances",
+          "stock": 35
+        },
+        {
+          "id": 9,
+          "name": "Tablet",
+          "description": "10-inch tablet with 4GB RAM and 64GB storage.",
+          "price": 199.99,
+          "image": "https://via.placeholder.com/150/9400D3/FFFFFF?text=Tablet",
+          "category": "Electronics",
+          "stock": 10
+        },
+        {
+          "id": 10,
+          "name": "Running Shoes",
+          "description": "Comfortable running shoes with breathable material and great grip.",
+          "price": 59.99,
+          "image": "https://via.placeholder.com/150/FFD700/FFFFFF?text=Shoes",
+          "category": "Clothing",
+          "stock": 100
+        },
+        {
+            "id": 11,
+            "name": "Smartwatch",
+            "description": "Smartwatch with fitness tracking, notifications, and GPS.",
+            "price": 149.99,
+            "image": "https://via.placeholder.com/150/87CEEB/FFFFFF?text=Smartwatch",
+            "category": "Wearables",
+            "stock": 30,
+            "brand": "TechBrand"
+          },
+          {
+            "id": 12,
+            "name": "Electric Scooter",
+            "description": "Foldable electric scooter with 20-mile range and LED lights.",
+            "price": 299.99,
+            "image": "https://via.placeholder.com/150/FF7F50/FFFFFF?text=Electric+Scooter",
+            "category": "Outdoor",
+            "stock": 10,
+            "brand": "UrbanMove"
+          },
+          {
+            "id": 13,
+            "name": "Yoga Mat",
+            "description": "Non-slip yoga mat with carrying strap and eco-friendly material.",
+            "price": 19.99,
+            "image": "https://via.placeholder.com/150/008B8B/FFFFFF?text=Yoga+Mat",
+            "category": "Fitness",
+            "stock": 100,
+            "brand": "ZenFlow"
+          },
+          {
+            "id": 14,
+            "name": "LED Desk Lamp",
+            "description": "Dimmable LED desk lamp with USB charging port and touch controls.",
+            "price": 39.99,
+            "image": "https://via.placeholder.com/150/556B2F/FFFFFF?text=Desk+Lamp",
+            "category": "Home Office",
+            "stock": 50,
+            "brand": "BrightLight"
+          },
+          {
+            "id": 15,
+            "name": "Air Purifier",
+            "description": "HEPA air purifier for removing dust, pollen, and smoke.",
+            "price": 129.99,
+            "image": "https://via.placeholder.com/150/696969/FFFFFF?text=Air+Purifier",
+            "category": "Home Appliances",
+            "stock": 20,
+            "brand": "PureAir"
+          },
+          {
+            "id": 16,
+            "name": "Gaming Console",
+            "description": "Next-gen gaming console with 4K resolution and 1TB storage.",
+            "price": 499.99,
+            "image": "https://via.placeholder.com/150/DAA520/FFFFFF?text=Console",
+            "category": "Gaming",
+            "stock": 15,
+            "brand": "GameMax"
+          },
+          {
+            "id": 17,
+            "name": "Digital Camera",
+            "description": "Compact digital camera with 20MP resolution and 4K video recording.",
+            "price": 349.99,
+            "image": "https://via.placeholder.com/150/FF6347/FFFFFF?text=Camera",
+            "category": "Electronics",
+            "stock": 25,
+            "brand": "PhotoPro"
+          },
+          {
+            "id": 18,
+            "name": "Wireless Mouse",
+            "description": "Ergonomic wireless mouse with adjustable DPI and silent clicks.",
+            "price": 24.99,
+            "image": "https://via.placeholder.com/150/4682B4/FFFFFF?text=Mouse",
+            "category": "Computers",
+            "stock": 75,
+            "brand": "TechEase"
+          },
+          {
+            "id": 19,
+            "name": "Portable Charger",
+            "description": "10000mAh portable charger with fast charging capability.",
+            "price": 29.99,
+            "image": "https://via.placeholder.com/150/2F4F4F/FFFFFF?text=Charger",
+            "category": "Accessories",
+            "stock": 60,
+            "brand": "PowerPlus"
+          },
+          {
+            "id": 20,
+            "name": "Camping Tent",
+            "description": "4-person waterproof camping tent with easy setup.",
+            "price": 89.99,
+            "image": "https://via.placeholder.com/150/228B22/FFFFFF?text=Tent",
+            "category": "Outdoor",
+            "stock": 10,
+            "brand": "AdventureCo"
+          },
+          {
+            "id": 21,
+            "name": "Blender",
+            "description": "High-speed blender with multiple blending modes and BPA-free jar.",
+            "price": 59.99,
+            "image": "https://via.placeholder.com/150/FFA07A/FFFFFF?text=Blender",
+            "category": "Kitchen",
+            "stock": 35,
+            "brand": "KitchenPro"
+          },
+          {
+            "id": 22,
+            "name": "Bookshelf",
+            "description": "5-tier wooden bookshelf with modern design.",
+            "price": 99.99,
+            "image": "https://via.placeholder.com/150/8B4513/FFFFFF?text=Bookshelf",
+            "category": "Furniture",
+            "stock": 20,
+            "brand": "HomeStyle"
+          },
+          {
+            "id": 23,
+            "name": "Air Fryer",
+            "description": "Oil-free air fryer with digital controls and large capacity.",
+            "price": 89.99,
+            "image": "https://via.placeholder.com/150/FF4500/FFFFFF?text=Air+Fryer",
+            "category": "Kitchen",
+            "stock": 25,
+            "brand": "HealthyCook"
+          },
+          {
+            "id": 24,
+            "name": "Running Watch",
+            "description": "GPS-enabled running watch with heart rate monitoring.",
+            "price": 199.99,
+            "image": "https://via.placeholder.com/150/4682B4/FFFFFF?text=Running+Watch",
+            "category": "Wearables",
+            "stock": 15,
+            "brand": "FitGear"
+          },
+          {
+            "id": 25,
+            "name": "Electric Guitar",
+            "description": "Beginner-friendly electric guitar with amplifier.",
+            "price": 199.99,
+            "image": "https://via.placeholder.com/150/00008B/FFFFFF?text=Guitar",
+            "category": "Music",
+            "stock": 10,
+            "brand": "RockStar"
+          }
+      ],
+      "validateToken": {
+        "validTokens": ["myTokens", "anotherValidToken"]
+      }
+      
+      
+}
